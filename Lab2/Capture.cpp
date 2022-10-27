@@ -126,8 +126,8 @@ int main()
         strftime(timestr, sizeof timestr, "%H:%M:%S", &ltime);
         printf("[%s,%.6ld]\t", timestr, header->ts.tv_usec);
 
-		/* 打印报头长度 */
-        printf("PKT LENGTH: %d\n", header->len);
+		/* 打印数据包长度 */
+        printf("PKT LENGTH: %d\n", Atoi(to_string(header->len),16));
 
         /* 打印数据包原始内容 */
         /*int len = header->len;
