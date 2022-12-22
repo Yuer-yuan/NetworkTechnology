@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RouterApplication - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\18213\AppData\Local\Temp\RSPEEA7.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "WPCAP" /D "HAVE_REMOTE" /FR"Release/" /Fp"Release/RouterApplication.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\ENV\CODE\C++\NETWORK TECHNOLOGY AND APPLICATION\LAB5\RouterApplication\RoutingTable.cpp"
+]
+Creating command line "cl.exe @C:\Users\18213\AppData\Local\Temp\RSPEEA7.tmp" 
+Creating temporary file "C:\Users\18213\AppData\Local\Temp\RSPEEA8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wpcap.lib Packet.lib ws2_32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/RouterApplication.pdb" /machine:I386 /out:"Release/RouterApplication.exe" 
+".\Release\ARPTable.obj"
+".\Release\Device.obj"
+".\Release\main.obj"
+".\Release\Packet.obj"
+".\Release\Router.obj"
+".\Release\RoutingTable.obj"
+".\Release\Util.obj"
+]
+Creating command line "link.exe @C:\Users\18213\AppData\Local\Temp\RSPEEA8.tmp"
+<h3>Output Window</h3>
+Compiling...
+RoutingTable.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/RouterApplication.bsc"  ".\Release\ARPTable.sbr" ".\Release\Device.sbr" ".\Release\main.sbr" ".\Release\Packet.sbr" ".\Release\Router.sbr" ".\Release\RoutingTable.sbr" ".\Release\Util.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+RouterApplication.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
